@@ -10,9 +10,9 @@
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Credits](#credits)
-* [License](#license)
 * [Versioning](#versioning)
 * [Authors](#authors)
+* [License](#license)
 
 ## Getting Started
 
@@ -52,7 +52,38 @@ $ yarn
 
 ## Usage
 
-Write usage instructions
+### Serving the app
+
+```sh
+$ npm start
+```
+
+### Unit test
+
+```sh
+$ npm test
+```
+
+### Building a distribution version
+
+```sh
+$ npm run build
+```
+
+This task will create a distribution version of the project
+inside your local `dist/` folder
+
+### Serving the distribution version
+
+```sh
+$ npm run serve:dist
+```
+
+This will use `lite-server` for servign your already
+generated distribution version of the project.
+
+*Note* this requires
+[Building a distribution version](#building-a-distribution-version) first.
 
 ## Contributing
 
@@ -74,6 +105,7 @@ TODO: Write credits
 * Dropwizard - Bla bla bla
 * Maven - Maybe
 * Atom - ergaerga
+* Love
 
 ## Versioning
 
