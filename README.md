@@ -6,7 +6,7 @@
 
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-* [Installation](#installation)
+  * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Credits](#credits)
@@ -20,29 +20,35 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+This project requires NodeJS (at least version 6) and NPM.
+[Node](http://nodejs.org/) and [NPM](https://npmjs.org/) are really easy to install.
+To make sure you have them available on your machine,
+try running the following command.
 
-```
-Give examples
+```sh
+$ node --version
+v7.10.1
+
+$ npm --version
+4.2.0
 ```
 
 ### Installation
 
-A step by step series of examples that tell you have to get a development env running
+Start with cloning this repo on your local machine:
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+```sh
+$ git clone https://github.com/ORG/PROJECT.git
+$ cd PROJECT
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Then install all the Node dependencies usin npm or Yarn
+
+```sh
+$ npm install
+# Or using Yarn for a faster installation
+$ yarn
+```
 
 ## Usage
 
