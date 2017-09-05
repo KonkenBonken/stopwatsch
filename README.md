@@ -8,6 +8,10 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
+  * [Serving the app](#serving-the-app)
+  * [Unit teststing](#unit-teststing)
+  * [Building a distribution version](#building-a-distribution-version)
+  * [Serving the distribution version](#serving-the-distribution-version)
 * [Contributing](#contributing)
 * [Credits](#credits)
 * [Versioning](#versioning)
@@ -58,7 +62,7 @@ $ yarn
 $ npm start
 ```
 
-### Unit test
+### Unit teststing
 
 ```sh
 $ npm test
