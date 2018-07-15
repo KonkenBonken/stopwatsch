@@ -2,27 +2,9 @@
 
 > Write a project description
 
-## Table of contents
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-  * [Serving the app](#serving-the-app)
-  * [Unit teststing](#unit-teststing)
-  * [Building a distribution version](#building-a-distribution-version)
-  * [Serving the distribution version](#serving-the-distribution-version)
-* [Contributing](#contributing)
-* [Credits](#credits)
-* [Versioning](#versioning)
-* [Authors](#authors)
-* [License](#license)
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
+## Prerequisites
 
 This project requires NodeJS (at least version 6) and NPM.
 [Node](http://nodejs.org/) and [NPM](https://npmjs.org/) are really easy to install.
@@ -37,7 +19,32 @@ $ npm --version
 4.2.0
 ```
 
+## Table of contents
+
+- [Project Name](#project-name)
+  - [Prerequisites](#prerequisites)
+  - [Table of contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+    - [Installation](#installation)
+  - [Usage](#usage)
+    - [Serving the app](#serving-the-app)
+    - [Unit teststing](#unit-teststing)
+    - [Building a distribution version](#building-a-distribution-version)
+    - [Serving the distribution version](#serving-the-distribution-version)
+  - [Contributing](#contributing)
+  - [Credits](#credits)
+  - [Built With](#built-with)
+  - [Versioning](#versioning)
+  - [Authors](#authors)
+  - [License](#license)
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
 ### Installation
+
+**BEFORE YOU INSTALL:** please read the [prerequisites](#prerequisites)
 
 Start with cloning this repo on your local machine:
 
@@ -50,7 +57,11 @@ Then install all the Node dependencies usin npm or Yarn
 
 ```sh
 $ npm install
-# Or using Yarn for a faster installation
+```
+
+Or using Yarn
+
+```sh
 $ yarn
 ```
 
@@ -113,7 +124,7 @@ TODO: Write credits
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
@@ -123,4 +134,4 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-[MIT License](https://andreasonny.mit-license.org/2016-2017) © Andrea SonnY
+[MIT License](https://andreasonny.mit-license.org/2017-2018) © Andrea SonnY
