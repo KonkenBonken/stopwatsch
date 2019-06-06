@@ -73,7 +73,7 @@ $ yarn
 $ npm start
 ```
 
-### Unit teststing
+### Unit testing
 
 ```sh
 $ npm test
