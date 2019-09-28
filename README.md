@@ -268,4 +268,4 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-[MIT License](https://andreasonny.mit-license.org/2017-2018) © Andrea SonnY
+[MIT License](https://andreasonny.mit-license.org/2019) © Andrea SonnY
