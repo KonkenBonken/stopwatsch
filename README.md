@@ -31,6 +31,9 @@ v8.16.0
     - [Building a distribution version](#building-a-distribution-version)
     - [Serving the distribution version](#serving-the-distribution-version)
   - [API](#api)
+    - [useBasicFetch](#usebasicfetch)
+      - [Options](#options)
+    - [fetchData](#fetchdata)
   - [Contributing](#contributing)
   - [Credits](#credits)
   - [Built With](#built-with)
@@ -265,4 +268,4 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-[MIT License](https://andreasonny.mit-license.org/2019) © Andrea SonnY
+[MIT License](https://andreasonny.mit-license.org/2017-2018) © Andrea SonnY
