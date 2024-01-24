@@ -16,6 +16,9 @@ const Timer = {
     this.stopTs = Date.now();
     return Date.now() - this.startTs;
   },
+  pause() {
+    return this.stop();
+  },
   get time() {
     if (this.stopTs === -1)
       return Date.now() - this.startTs;

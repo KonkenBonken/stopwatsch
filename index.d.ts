@@ -3,6 +3,7 @@ declare namespace Timer {
     function restart(): void;
     function start(): void;
     function stop(): number;
+    function pause(): number;
     const time: number;
 }
 
