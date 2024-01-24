@@ -4,6 +4,7 @@ declare namespace Timer {
     function start(): void;
     function stop(): number;
     function pause(): number;
+    const ms: number;
     const time: number;
 }
 

@@ -25,6 +25,9 @@ const Timer = {
     else
       return Date.now() - this.startTs - (Date.now() - this.stopTs);
   },
+  get ms() {
+    return this.time;
+  },
 };
 
 export default Timer;
