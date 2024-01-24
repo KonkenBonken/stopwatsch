@@ -1,6 +1,6 @@
 {
   "name": "stopwatsch",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "main": "index.js",
   "types": "index.d.ts",
   "keywords": [
@@ -9,6 +9,7 @@
     "timer"
   ],
   "author": "Konrad Pettersson <konrad05pettersson@gmail.com>",
+  "repository": "github:KonkenBonken/stopwatsch",
   "license": "ISC",
   "type": "module"
 }
