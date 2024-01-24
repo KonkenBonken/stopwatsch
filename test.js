@@ -24,5 +24,9 @@ const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
   await sleep(100)
   console.log(stopwatsh.time)
 
+  await sleep(1000)
+  console.log(stopwatsh.s)
+  console.log(stopwatsh.m)
+  console.log(stopwatsh.h)
 
 })();
