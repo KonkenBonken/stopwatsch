@@ -28,6 +28,15 @@ const Timer = {
   get ms() {
     return this.time;
   },
+  get s() {
+    return this.time / 1000;
+  },
+  get m() {
+    return this.s / 60;
+  },
+  get h() {
+    return this.m / 60;
+  },
 };
 
 export default Timer;
