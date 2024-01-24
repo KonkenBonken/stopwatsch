@@ -1,0 +1,14 @@
+{
+  "name": "stopwatsch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "time",
+    "stopwatch",
+    "timer"
+  ],
+  "author": "Konrad Pettersson <konrad05pettersson@gmail.com>",
+  "license": "ISC",
+  "type": "module"
+}
